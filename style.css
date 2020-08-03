@@ -1,0 +1,216 @@
+body {
+  
+    background-color: #e4e3e3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .img {
+    border-radius: 10%;
+    box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.5);
+
+  }
+
+  /* Titles */
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  
+  p {
+    line-height: 20px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    
+  }
+  
+  .centered {
+    text-align: center;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    
+    text-transform: uppercase;
+    margin-bottom: 0px;
+  }
+  
+  .navbar-inverse {
+    padding: 30px 0;
+  }
+  
+  @media (max-width: 768px ) {
+    .navbar-inverse {
+      padding: 5px 0;
+    }
+  }
+  .navbar-inverse {
+    background-color: #4b5d67;
+    
+  }
+  
+  .navbar-inverse .navbar-nav>li>a {
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-nav>li>a:hover {
+    color: #222222;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-inverse .navbar-brand {
+    color: white;
+  }
+  
+  .navbar-inverse .navbar-toggle {
+    border-color: transparent;
+  }
+  
+  .progress-bar-theme {
+    background-color: #1abc9c;
+  }
+  
+ 
+  
+  .mt {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .pt {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+ 
+  
+  #ww {
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #e4e3e3;
+  }
+  
+  #footer {
+    background-color: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #footer p {
+    color: white;
+  }
+  
+  #footer h4 {
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  
+  .zoom {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    background: transparent url(../img/loader.gif) no-repeat center;
+  }
+  
+  .zoomOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+    background-image: url(../img/zoom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .zoom2 {
+    opacity: 1;
+  }
+  
+  .zoom2:hover {
+    opacity: 0.5;
+  }
+  
+  /* glyphicon Configuration */
+  
+  .glyphicon {
+    font-size: 40px;
+    color: #1abc9c;
+  }
+  
+  /* Contact Form */
+  
+  #contact {
+    padding: 40px 0;
+  }
+  
+  
+  
+  .contact-form label {
+    color: #999;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px 12px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto;
+  }
+
+  .btn {
+    background-color: #f5efef;
+    transition: 4.5;
+  }
+  .btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5)
+  }
+
+  #copyrights {
+    background: #222222;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #copyrights p {
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  #copyrights a {
+    color: #1abc9c;
+  }
+  
+  .credits {
+    color: #999;
+  }
+  
